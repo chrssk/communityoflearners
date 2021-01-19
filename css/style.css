@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.header {
+	display: flex;
+	background-color: #0062a7;
+	width: 100vw;
+	height: 10%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 100px;
+
+}
+
+.container: after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+.container img{
+	margin: 2%;
+	width: 15%
+}
+.container ul {
+	color : red	;
+	float : right;
+	margin-top: 1.5%; 
+	margin-right: 2.5%;
+}
+.container ul li  {
+	display: inline-block;
+}
+.container ul li a {
+	display: inline-block;
+	padding: 25px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.container ul li a:hover {
+	background-color: #00080B;
+	color: #0062a7;
+}
+
+.sign-up a{
+	text-decoration: none;
+	background-color:#0062a7;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:7px 21px;
+}
+.sign-up button{
+	background-color:#ffffff;
+	border-radius:14px;
+	border:1px solid #0062a7;
+	display:inline-block;
+	cursor:pointer;
+	color:#0062a7;
+	font-family:Arial;
+	font-size:12px;
+	padding:7px 21px;
+}
+
+.sign-up input{
+	width :17%;
+	border: none;
+	border-bottom:1px solid#0062a7 ;
+	padding: 2px;
+}
+
+.sign-up input:focus{
+	border:#ffffff;
+	
+}
+
+.sign-up h2{
+	color: #0062a7;
+}
+
+.sign-up input{
+	margin: 0.5%;
+}
+
+.sign-up {
+	text-align: center;
+	margin-top: 90px;
+}
+
